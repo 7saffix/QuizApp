@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family:  monospace;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz{
+    background-color: rgb(247, 241, 187);
+    border-radius: 5px;
+    padding: 20px;   
+}
+#question{
+    margin-bottom: 10px;
+}
+.quiz .ans{
+    padding: 10px;
+    padding-left: 0;
+    
+}
+#btn{
+    width: 100%;
+    padding: 4px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 7, 12);
+    color :white;
+}
